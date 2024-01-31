@@ -28,7 +28,7 @@
 * Run the commands in "install-ollama-webgui.sh" in a Linux (Ubuntu WSL) terminal.
 
 ## Test connectivity to the Ollama API and UI
-* Go to http://127.0.0.1:11434/ to see that the Ollama API is running
+* Go to http://localhost:11434/ to see that the Ollama API is running
 * Go to http://localhost:3000/ to see if the Ollama WebUI is running
 * Register with Ollama-WebUI
 * Download a model, e.g.:
