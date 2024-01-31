@@ -13,8 +13,11 @@
   * PowerShell
 
 ## Windows settings
-* Go to Control Panel > "Turn Windows features on or off" > Enable 'Virtual Machine Platform'
-* Also enable 'Windows Subsystem for Linux'
+* Check if virtualisation is enabled for your pc/laptop. Check this article: https://www.technorms.com/8208/check-if-processor-supports-virtualization
+* If it's disabled but your CPU is able to, enable it in your BIOS. Check this article: https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html
+* Go to Control Panel > "Turn Windows features on or off" 
+  * Enable 'Virtual Machine Platform'
+  * Enable 'Windows Subsystem for Linux'
 
 ## Install Windows Subsystem for Linux (WSL)
 * Run the install command from "install-wsl-ubuntu.ps1" in a Powershell terminal.
