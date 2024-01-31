@@ -1,8 +1,0 @@
-# https://github.com/jmorganca/ollama/blob/main/docs/api.md
-
-POST http://localhost:11434/api/generate
-
-{
-  "model": "llama2",
-  "prompt": "Why is the sky blue?"
-}
