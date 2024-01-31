@@ -18,7 +18,7 @@ sudo DOCKER_BUILDKIT=0 docker-compose up --build -d
 # Expose the Ollama API
 sudo docker-compose -f docker-compose.yaml -f docker-compose.api.yaml up --build -d
 
-# (werkt niet) GPU Support
+# (doesn't seem to work) GPU Support
 #sudo docker-compose -f docker-compose.yaml -f docker-compose.gpu.yaml up --build -d
 
 
