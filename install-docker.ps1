@@ -58,3 +58,10 @@ docker rm <container name>
 
 #How to use an NVidia GPU with Docker containers
 # Source: https://www.howtogeek.com/devops/how-to-use-an-nvidia-gpu-with-docker-containers/
+
+
+# Docker Deamon not running Source: https://github.com/docker/for-linux/issues/1105
+sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+
+dockerd 
+

@@ -15,6 +15,8 @@ pip install --upgrade pip
 # when comparing the models they aren't in synch.
 DOCKER_BUILDKIT=0 docker-compose up --build -d
 
+docker-compose up --build -d
+
 # Go to http://localhost:3000/ to see if the Ollama WebUI is running
 
 
