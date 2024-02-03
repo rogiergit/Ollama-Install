@@ -1,11 +1,13 @@
+########################################################
+#   Docker installation
+########################################################
+
 # Official installation according to docker: https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository 
 
 # Remove old docker installations
 sudo apt-get remove docker docker-engine docker.io
 
 # Install via 
-sudo apt-get install docker-ce
-# Or
 sudo apt install docker.io 
 
 # Install dependencies
@@ -15,7 +17,7 @@ sudo snap install docker
 sudo apt-get update
 
 ########################################################
-#   MISC COMMANDS
+#   Other Docker commands
 ########################################################
 
 # get a list of the docker containers with the container id

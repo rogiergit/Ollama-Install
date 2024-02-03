@@ -1,4 +1,4 @@
-# How to query local LLM's via a Ollama web UI on Windows 11
+# How to query local LLM's using Ollama web UI on Windows 11
 
 ## Steps
 1. Install the tool(s)
